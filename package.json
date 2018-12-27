@@ -1,0 +1,11 @@
+{
+  "name": "weatherApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/CodyJReed/waetherApp.git",
+  "author": "Cody Reed <cody2j2reed@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "request": "2.88.0"
+  }
+}
