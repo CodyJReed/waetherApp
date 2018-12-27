@@ -10,6 +10,10 @@ request(
     json: true
   },
   (error, response, body) => {
-    console.log(JSON.stringify(body, undefined, 2));
+    console.log(`Address: ${response.body.results[0].formatted_address}`);
+
+    console.log(`Longitude: ${response.body.results[0].geometry.location.lng}`);
+
+    console.log(`Latitude: ${response.body.results[0].geometry.location.lat}`);
   }
 );
