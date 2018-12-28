@@ -22,3 +22,5 @@ const argv = yargs
 //     console.log(JSON.stringify(rslt, undefined, 2));
 //   }
 // });
+
+getWeather();

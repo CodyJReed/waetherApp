@@ -1,5 +1,5 @@
 const request = require("request");
-const { skyKey } = require("./api.js");
+const { skyKey } = require("../api.js");
 
 const getWeather = () => {
   request(
