@@ -11,7 +11,10 @@ const getWeather = (lat, lng, cb) => {
       cb(
         error || response.statusCode !== 200
           ? "Unable to connect to forecast.io"
-          : body.currently.temperature
+          : {
+              temperature: body.currently.temperature,
+              apparentTemperature: body.currently.apparentTemperature
+            }
       );
     }
   );
