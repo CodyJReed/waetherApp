@@ -15,18 +15,17 @@ const argv = yargs
   .help()
   .alias("help", "h").argv;
 
-getWeather(36.0244067, -83.93834749999999, (errMsg, wthrRslt) => {
+geocodeAddress(argv.a, (errMsg, rslt) => {
   if (errMsg) {
     console.log(errMsg);
   } else {
-    console.log(JSON.stringify(wthrRslt, undefined, 2));
+    console.log(rslt.address);
+    getWeather(rslt.latitude, rslt.longitude, (errMsg, wthrRslt) => {
+      if (errMsg) {
+        console.log(errMsg);
+      } else {
+        console.log(wthrRslt);
+      }
+    });
   }
 });
-
-// geocodeAddress(argv.a, (errMsg, rslt) => {
-//   if (errMsg) {
-//     console.log(errMsg);
-//   } else {
-//     console.log(JSON.stringify(rslt, undefined, 2));
-//   }
-// });

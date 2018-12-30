@@ -19,7 +19,7 @@ const geocodeAddress = (address, cb) => {
       } else if (body.status === "OK") {
         cb(undefined, {
           address: body.results[0].formatted_address,
-          logitude: body.results[0].geometry.location.lng,
+          longitude: body.results[0].geometry.location.lng,
           latitude: body.results[0].geometry.location.lat
         });
       }
