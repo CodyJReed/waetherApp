@@ -6,6 +6,7 @@
   "author": "Cody Reed <cody2j2reed@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "axios": "^0.18.0",
     "request": "2.88.0",
     "yargs": "^12.0.5"
   }
