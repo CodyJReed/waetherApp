@@ -3,7 +3,7 @@
 Udemy Course "Complete Node.js Developer."
 
 <h3>Overview</h3>
-weatherApp is the second project completed through the Andrew Mead lead "Complete Node.js Developer Course." The application is written using vanilla JS(ES6), Node.js(v11) and the following NPM devDependencies:
+<p>weatherApp is the second project completed through the Andrew Mead lead "Complete Node.js Developer Course." The application is written using vanilla JS(ES6), Node.js(v11) and the following NPM devDependencies:</p>
 <ul>
   <li>axios</li>
   <li>yargs</li>
@@ -11,7 +11,7 @@ weatherApp is the second project completed through the Andrew Mead lead "Complet
 </ul>
 
 <h3>Features</h3>
-weatherApp allows the user to:
+<p>weatherApp allows the user to:</p>
 
 receive real-time weather feedback, such as current temperature, and location.
 
