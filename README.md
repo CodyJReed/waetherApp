@@ -10,7 +10,7 @@ yargs
 request
 
 <h3>Features</h3>
-waetherApp allows the user to:
+weatherApp allows the user to:
 
 receive real-time weather feedback, such as current temperature, and location.
 
